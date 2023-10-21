@@ -1,7 +1,4 @@
 from ultralytics import YOLO
-from ultralytics import settings
-# Update a setting
-settings.update({'datasets_dir': '.'})
 
 # Load a pre-trained YOLO model
 model = YOLO("yolov8l.pt")
